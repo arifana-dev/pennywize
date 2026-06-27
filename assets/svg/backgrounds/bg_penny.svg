@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="creamBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5F0E8"/>
+      <stop offset="100%" stop-color="#E8DDD0"/>
+    </linearGradient>
+    <radialGradient id="coinFaceP" cx="50%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#E8A88A"/>
+      <stop offset="60%" stop-color="#D97757"/>
+      <stop offset="100%" stop-color="#B8593B"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#creamBg)"/>
+  <circle cx="60" cy="40" r="3" fill="#D97757" opacity="0.3"/>
+  <circle cx="340" cy="170" r="4" fill="#C89B5C" opacity="0.4"/>
+  <circle cx="80" cy="170" r="2" fill="#D97757" opacity="0.3"/>
+  <circle cx="320" cy="50" r="2.5" fill="#C89B5C" opacity="0.5"/>
+  <g transform="translate(310 110) scale(0.55)">
+    <ellipse cx="0" cy="78" rx="60" ry="6" fill="#2D1810" opacity="0.1"/>
+    <circle cx="0" cy="0" r="78" fill="url(#coinFaceP)"/>
+    <circle cx="0" cy="0" r="78" fill="none" stroke="#8C4A2E" stroke-width="2.5" opacity="0.5"/>
+    <ellipse cx="-26" cy="-22" rx="9" ry="11" fill="#FAF6EF"/>
+    <ellipse cx="26" cy="-22" rx="9" ry="11" fill="#FAF6EF"/>
+    <circle cx="-24" cy="-20" r="5.5" fill="#2D1810"/>
+    <circle cx="28" cy="-20" r="5.5" fill="#2D1810"/>
+    <path d="M -13 22 Q 0 32 13 22" stroke="#2D1810" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

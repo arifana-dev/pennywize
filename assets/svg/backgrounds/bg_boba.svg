@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="200" fill="#E8DDD0"/>
+  <circle cx="60" cy="40" r="6" fill="#FAF6EF" opacity="0.7"/>
+  <circle cx="350" cy="50" r="8" fill="#FAF6EF" opacity="0.6"/>
+  <circle cx="320" cy="160" r="5" fill="#FAF6EF" opacity="0.7"/>
+  <g transform="translate(300 100)">
+    <ellipse cx="0" cy="55" rx="40" ry="6" fill="#2D1810" opacity="0.1"/>
+    <path d="M -32 -55 L 32 -55 L 28 50 L -28 50 Z" fill="#D4C5B2"/>
+    <path d="M -32 -55 L 32 -55 L 28 50 L -28 50 Z" fill="#8C7A6B"/>
+    <ellipse cx="0" cy="-55" rx="32" ry="6" fill="#5C4A3D"/>
+    <rect x="-3" y="-80" width="6" height="30" fill="#D97757"/>
+    <circle cx="-15" cy="35" r="4" fill="#2D1810"/>
+    <circle cx="-5" cy="40" r="4" fill="#2D1810"/>
+    <circle cx="8" cy="35" r="4" fill="#2D1810"/>
+    <circle cx="15" cy="42" r="4" fill="#2D1810"/>
+    <circle cx="-10" cy="25" r="4" fill="#2D1810"/>
+    <circle cx="5" cy="22" r="4" fill="#2D1810"/>
+    <ellipse cx="-10" cy="-10" rx="4" ry="6" fill="#FAF6EF"/>
+    <ellipse cx="10" cy="-10" rx="4" ry="6" fill="#FAF6EF"/>
+    <circle cx="-10" cy="-9" r="2" fill="#2D1810"/>
+    <circle cx="10" cy="-9" r="2" fill="#2D1810"/>
+    <ellipse cx="-15" cy="5" rx="4" ry="2" fill="#D97757" opacity="0.6"/>
+    <ellipse cx="15" cy="5" rx="4" ry="2" fill="#D97757" opacity="0.6"/>
+  </g>
+</svg>

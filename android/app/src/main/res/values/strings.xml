@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Penny</string>
+    <string name="widget_today_label">Hari ini</string>
+    <string name="widget_bg_desc">Penny widget background</string>
+    <string name="widget_small_name">Penny — Hari ini</string>
+    <string name="widget_medium_name">Penny — Ringkasan</string>
+</resources>
