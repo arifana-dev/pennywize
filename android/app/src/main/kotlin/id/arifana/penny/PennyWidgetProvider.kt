@@ -76,7 +76,7 @@ abstract class PennyWidgetProviderBase : AppWidgetProvider() {
                 launchIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
             )
-            views.setOnClickPendingIntent(android.R.id.background, pi)
+            views.setOnClickPendingIntent(R.id.widget_root, pi)
             views.setOnClickPendingIntent(R.id.widget_total, pi)
 
             appWidgetManager.updateAppWidget(widgetId, views)
