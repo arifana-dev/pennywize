@@ -8,7 +8,7 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
-val keyPropertiesFile = rootProject.file("app/key.properties")
+val keyPropertiesFile = rootProject.file("key.properties")
 val keyProperties = Properties().apply {
     if (keyPropertiesFile.exists()) load(keyPropertiesFile.inputStream())
 }
