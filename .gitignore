@@ -57,6 +57,13 @@ database.rules.json
 # VSCode
 .vscode/
 
+# Claude Code
+CLAUDE.md
+
+# Firebase Functions build output
+functions/lib/
+functions/node_modules/
+
 # Environment
 .env
 *.env
